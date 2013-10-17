@@ -1,0 +1,467 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:13:52 -0400
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__747175450109343594__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 19:13:54 -0400
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__747175450109343594__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2013-10-16 19:13:58 -0400
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__747175450109343594__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/link" for 127.0.0.1 at 2013-10-16 19:14:07 -0400
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__747175450109343594__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateLinks (20131016231344)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar(255), "title" varchar(255), "url" varchar(255), "icon" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131016231344"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/link" for 127.0.0.1 at 2013-10-16 19:14:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/link"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.8ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (61.7ms)
+
+
+Started GET "/links" for 127.0.0.1 at 2013-10-16 19:14:30 -0400
+Processing by LinksController#index as HTML
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links"
+  Rendered links/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 923ms (Views: 841.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:31 -0400
+
+
+Started GET "/links/new" for 127.0.0.1 at 2013-10-16 19:14:33 -0400
+Processing by LinksController#new as HTML
+  Rendered links/_form.html.erb (86.8ms)
+  Rendered links/new.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 96ms (Views: 94.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/links" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+Processing by LinksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QEl3nvztbmzzPWuGp23fc57NkIiSdg5btd8ZBW0G5aQ=", "link"=>{"description"=>"ad", "title"=>"asd", "url"=>"asd", "icon"=>"asd"}, "commit"=>"Create Link"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.8ms)[0m  INSERT INTO "links" ("created_at", "description", "icon", "title", "updated_at", "url") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 16 Oct 2013 23:14:36 UTC +00:00], ["description", "ad"], ["icon", "asd"], ["title", "asd"], ["updated_at", Wed, 16 Oct 2013 23:14:36 UTC +00:00], ["url", "asd"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/links/1
+Completed 302 Found in 38ms (ActiveRecord: 30.8ms)
+
+
+Started GET "/links/1" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+Processing by LinksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.4ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-16 19:14:36 -0400
+
+
+Started GET "/links" for 127.0.0.1 at 2013-10-16 19:14:38 -0400
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 19:14:46 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (41.8ms)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links1.json" for 127.0.0.1 at 2013-10-16 19:15:00 -0400
+
+ActionController::RoutingError (No route matches [GET] "/links1.json"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nelliott/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (31.6ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.6ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 19:15:05 -0400
+Processing by LinksController#index as JSON
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.json.jbuilder (3.3ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:04:23 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.6ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:34:01 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mLink Load (0.2ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.6ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:34:01 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.8ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:34:05 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mLink Load (0.2ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.6ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:36:51 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (1.2ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:36:52 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mLink Load (0.2ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.6ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:50:26 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:50:55 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mLink Load (0.1ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:54:35 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.6ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 20:54:39 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mLink Load (0.1ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered links/show.json.jbuilder (0.5ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-16 21:49:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/nelliott/.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 53ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/links/1.json" for 127.0.0.1 at 2013-10-16 21:50:00 -0400
+Processing by LinksController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mLink Load (0.4ms)[0m  SELECT "links".* FROM "links" WHERE "links"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered links/show.json.jbuilder (57.2ms)
+Completed 200 OK in 83ms (Views: 60.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:50:04 -0400
+Processing by LinksController#index as JSON
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.json.jbuilder (3.1ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:50:19 -0400
+Processing by LinksController#index as JSON
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links"
+  Rendered links/index.json.jbuilder (1.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:51:01 -0400
+Processing by LinksController#index as JSON
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.json.jbuilder (1.8ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:52:31 -0400
+Processing by LinksController#index as JSON
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links"
+  Rendered links/index.json.jbuilder (1.9ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:52:32 -0400
+Processing by LinksController#index as JSON
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links"[0m
+  Rendered links/index.json.jbuilder (1.8ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/links.json" for 127.0.0.1 at 2013-10-16 21:53:30 -0400
+Processing by LinksController#index as JSON
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links"
+  Rendered links/index.json.jbuilder (1.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
